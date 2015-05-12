@@ -1,0 +1,26 @@
+{
+  "category": "Indo-European",
+  "languages": [],
+  "children": [
+    {
+      "category": "Anatolian",
+      "languages": [
+        {"name": "Luwian", "extinct": true, "isogloss": "centum"},
+		{"name": "Lycian", "extinct": true, "isogloss": "centum"},
+		{"name": "Hittite", "extinct": true, "isogloss": "centum"},
+		{"name": "Carian", "extinct": true, "isogloss": "centum"},
+		{"name": "Lydian", "extinct": true, "isogloss": "centum"},
+		{"name": "Palaic", "extinct": true, "isogloss": "centum"},
+		{"name": "Pisidian", "extinct": true, "isogloss": "centum"}
+      ],
+      "children": []
+    },
+	{
+		"category": "Albanian",
+		"languages": [
+			{"name": "Albanian", "extinct": false, "isogloss": "centum"}
+		],
+		"children": []
+	}
+  ]
+}
