@@ -1,5 +1,6 @@
 {
-  "category": "Indo-European",
+  "name": "Indo-European",
+  "type": "category",
   "children": [
     {
       "type": "category",
@@ -250,7 +251,9 @@
         {"name": "Turfanian", "type":"language", "extinct": true, "isogloss": "centum", "children": []}
       ]},
       {"name": "Balto-Slavic", "type":"category", "children": []},
-      {"name": "Armenian", "type":"category", "children": []},
+      {"name": "Armenian", "type":"category", "children": [
+        {"name": "Armenian", "type":"language", "extinct": false, "isogloss": "centum", "children": []}
+      ]},
       {"name": "Indo-Iranian", "type":"category", "children": []}
     ]}
   ]

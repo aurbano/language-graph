@@ -12,6 +12,11 @@ var GraphViewer = function(opts, data) {
   var width = $(opts.container).width(),
     height = $(opts.container).height();
 
+  $(opts.container).resize(function() {
+    width = $(opts.container).width();
+    height = $(opts.container).height();
+  });
+
   var force = d3.layout.force()
     .size([width, height])
     .nodes([]) // initialize with a single node
@@ -75,29 +80,38 @@ var GraphViewer = function(opts, data) {
         r += data.importance;
         return r;
       })
-      .style('fill', function(data){
-        if(data.type === 'language'){
-          if(data.extinct){
+      .style('fill', function(data) {
+        if (data.type === 'language') {
+          if (data.extinct) {
             return 'red';
-          }else{
+          } else {
             return 'green';
           }
+        } else {
+          return '#efefef';
         }
-      });
+      })
+      .style('stroke', function(data) {
+        if (data.type === 'category') {
+          return '#ccc';
+        }
+      })
+      .style('stroke-width', 2);
 
     node.append('text')
-      .attr('x', function(data){
-        var r = 12;
+      .attr("text-anchor", "middle")
+      .attr('y', function(data) {
+        var r = 40;
         if (data.type === 'category') {
-          r = 22;
+          r = 52;
         }
         r += data.importance;
         return r;
       })
-      .attr('dy', '.35em')
       .text(function(d) {
         return d.name;
-      });
+      })
+      .attr('font-size', '25px');
 
     force.start();
   }
