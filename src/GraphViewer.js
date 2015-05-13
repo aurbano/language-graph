@@ -54,16 +54,6 @@ var GraphViewer = function(opts, data) {
     .call(force.drag)
     .call(drag);
 
-  node.append('circle')
-    .attr('r', 8);
-
-  node.append('text')
-    .attr('x', 12)
-    .attr('dy', '.35em')
-    .text(function(d) {
-      return d.name;
-    });
-
   function restart() {
     link = link.data(links);
 
@@ -77,10 +67,33 @@ var GraphViewer = function(opts, data) {
       .call(force.drag);
 
     node.append('circle')
-      .attr('r', 8);
+      .attr('r', function(data) {
+        var r = 10;
+        if (data.type === 'category') {
+          r = 20;
+        }
+        r += data.importance;
+        return r;
+      })
+      .style('fill', function(data){
+        if(data.type === 'language'){
+          if(data.extinct){
+            return 'red';
+          }else{
+            return 'green';
+          }
+        }
+      });
 
     node.append('text')
-      .attr('x', 12)
+      .attr('x', function(data){
+        var r = 12;
+        if (data.type === 'category') {
+          r = 22;
+        }
+        r += data.importance;
+        return r;
+      })
       .attr('dy', '.35em')
       .text(function(d) {
         return d.name;
@@ -98,6 +111,8 @@ var GraphViewer = function(opts, data) {
     var currentNode = {
       name: lang.name,
       type: lang.type,
+      extinct: lang.extinct,
+      isogloss: lang.isogloss,
       importance: lang.children.length
     };
     nodes.push(currentNode);
