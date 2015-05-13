@@ -1,0 +1,32 @@
+{
+  "name": "language-graph",
+  "version": "1.0.0",
+  "description": "The world's languages in a directed graph",
+  "main": "index.html",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aurbano/language-graph.git"
+  },
+  "keywords": [
+    "languages",
+    "graph",
+    "directed",
+    "d3js"
+  ],
+  "author": "Alejandro U. Alvarez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aurbano/language-graph/issues"
+  },
+  "homepage": "https://github.com/aurbano/language-graph",
+  "devDependencies": {
+    "mocha": "^2.2.4",
+    "should": "^6.0.1"
+  }
+}
