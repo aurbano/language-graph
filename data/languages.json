@@ -1,5 +1,6 @@
 {
-  "category": "Indo-European",
+  "name": "Indo-European",
+  "type": "category",
   "children": [
     {
       "type": "category",
