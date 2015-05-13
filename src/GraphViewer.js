@@ -6,6 +6,8 @@
 
 var GraphViewer = function(opts, data) {
   'use strict';
+  
+  console.info("GraphViewer");
 
   var width = $(opts.container).width(),
     height = $(opts.container).height();
@@ -68,8 +70,6 @@ var GraphViewer = function(opts, data) {
     force.start();
   }
 
-  restart();
-
   function processLanguage(lang, parentNode) {
     var currentNode = {
       name: lang.name,
@@ -89,10 +89,10 @@ var GraphViewer = function(opts, data) {
       processLanguage(child, currentNode);
     });
   }
-
+  console.time("Processing data");
   processLanguage(data);
-
   restart();
+  console.timeEnd("Processing data");
 
   function tick() {
     link
