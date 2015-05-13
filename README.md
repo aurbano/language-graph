@@ -1,7 +1,7 @@
 # language-graph
 > Directed World languages graph.
 
-It uses public data extracted from multiple sources, and D3js to render the graph.
+It uses public data extracted from [multiple sources](https://github.com/aurbano/language-graph/blob/master/data/sources.json), and D3js to render the graph.
 
 As the dataset improves I'll add a RESTful API to consume it, instead of the current JSON file. I will also probably move it to another repository containing only the data.
 
