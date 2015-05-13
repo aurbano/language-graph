@@ -70,31 +70,23 @@ var GraphViewer = function(opts, data) {
 
   restart();
 
-  function processLanguage(lang, parent) {
-    var category = {
-      name: lang.category,
-      type: 'category',
-      importance: lang.children.length + lang.languages.length
+  function processLanguage(lang, parentNode) {
+    var currentNode = {
+      name: lang.name,
+      type: lang.type,
+      importance: lang.children.length
     };
-    nodes.push(category);
+    nodes.push(currentNode);
 
-    if (parent) {
+    if (parentNode) {
       links.push({
-        source: parent,
-        target: category
+        source: parentNode,
+        target: currentNode
       });
     }
 
-    lang.languages.forEach(function(language) {
-      nodes.push(language);
-      links.push({
-        source: category,
-        target: language
-      });
-    });
-
     lang.children.forEach(function(child) {
-      processLanguage(child, category);
+      processLanguage(child, currentNode);
     });
   }
 
