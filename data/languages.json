@@ -5,8 +5,9 @@
       "type": "category",
       "name": "Anatolian",
       "children": [
-        {"name": "Luwian", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
-        {"name": "Lycian", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
+        {"name": "Luwian", "type":"language", "extinct": true, "isogloss": "centum", "children": [
+          {"name": "Lycian", "type":"language", "extinct": true, "isogloss": "centum", "children": []}
+        ]},
         {"name": "Hittite", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
         {"name": "Carian", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
         {"name": "Lydian", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
@@ -26,9 +27,117 @@
       "name":  "Hellenic",
       "children": [
         {"name": "Mycenaean", "type":"language", "extinct": true, "isogloss": "centum", "children": [
-
+          {"name": "Attic", "type":"language", "extinct": true, "isogloss": "centum", "children": [
+            {"name": "Classical Greek", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
+            {"name": "Koine Greek", "type":"language", "extinct": true, "isogloss": "centum", "children": [
+              {"name": "Greek", "type":"language", "extinct": false, "isogloss": "centum", "children": []}
+            ]}
+          ]},
+          {"name": "Ionic", "type":"language", "extinct": true, "isogloss": "centum", "children": [
+            {"name": "Epic Greek", "type":"language", "extinct": true, "isogloss": "centum", "children": []}
+          ]},
+          {"name": "Achaean", "type":"category", "children": [
+            {"name": "Arcado", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
+            {"name": "Cypriot", "type":"language", "extinct": true, "isogloss": "centum", "children": []}
+          ]}
+        ]},
+        {"name": "Dorian", "type":"category", "children": [
+          {"name": "Doric", "type":"language", "extinct": true, "isogloss": "centum", "children": [
+            {"name": "Tsakonian", "type":"language", "extinct": false, "isogloss": "centum", "children": []}
+          ]},
+          {"name": "Northwest Greek", "type":"language", "extinct": true, "isogloss": "centum", "children": []}
+        ]}
+        {"name": "Aeolic", "type":"category", "children": [
+          {"name": "Aegean", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
+          {"name": "Beotian", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
+          {"name": "Thessalian", "type":"language", "extinct": true, "isogloss": "centum", "children": []}
         ]}
       ]
-    }
+    },
+    {"name": "Italic", "type":"category", "children": [
+      {"name": "Latino-Faliscan", "type":"category", "children": [
+        {"name": "Faliscan", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
+        {"name": "Latin", "type":"language", "extinct": true, "isogloss": "centum", "children": [
+          {"name": "Classical Latin", "type":"language", "extinct": true, "isogloss": "centum", "children": [
+            {"name": "Ecclesiastical Latin", "type":"language", "extinct": false, "isogloss": "centum", "children": []}
+          ]},
+          {"name": "Vulgar Latin", "type":"language", "extinct": true, "isogloss": "centum", "children": [
+            {"name": "Romance", "type":"category", "children": [
+              {"name": "Sardinian", "type":"language", "extinct": false, "isogloss": "centum", "children": [
+                {"name": "Logudorese", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+                {"name": "Campidanese", "type":"language", "extinct": false, "isogloss": "centum", "children": []}
+              ]},
+              {"name": "Eastern", "type":"category", "children":[
+                {"name": "Aromanian", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+                {"name": "Istro-Romanian", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+                {"name": "Megleno-Romanian", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+                {"name": "Romanian", "type":"language", "extinct": false, "isogloss": "centum", "children": []}
+              ]},
+              {"name": "Italo-Western", "type":"category", "children": [
+                {"name": "Gallo-Iberian", "type":"category", "children": [
+                  {"name": "Iberian", "type":"category", "children": [
+                    {"name": "Aragonese", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+                    {"name": "Astur-Leonese", "type":"language", "extinct": true, "isogloss": "centum", "children": [
+                      {"name": "Asturian", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+                      {"name": "Extremaduran", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+                      {"name": "Leonese", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+                      {"name": "Mirandese", "type":"language", "extinct": false, "isogloss": "centum", "children": []}
+                    ]},
+                    {"name": "Galician-Portuguese", "type":"language", "extinct": true, "isogloss": "centum", "children": [
+                      {"name": "Eonavian", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+                      {"name": "Fala", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+                      {"name": "Galician", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+                      {"name": "Portuguese", "type":"language", "extinct": false, "isogloss": "centum", "children": []}
+                    ]},
+                    {"name": "Mozarabic", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
+                    {"name": "Old Spanish", "type":"language", "extinct": true, "isogloss": "centum", "children": [
+                      {"name": "Ladino", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+                      {"name": "Spanish", "type":"language", "extinct": false, "isogloss": "centum", "children": []}
+                    ]}
+                  ]},
+                  {"name": "Gallic", "type":"category", "children": [
+                    {"name": "Arpitan", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+                    {"name": "Cisalpine", "type":"category", "children": [
+                      {"name": "Emilian", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+                      {"name": "Lingurian", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+                      {"name": "Lombard", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+                      {"name": "Piedmontese", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+                      {"name": "Venetian", "type":"language", "extinct": false, "isogloss": "centum", "children": []}
+                    ]},
+                    {"name": "Langue D'Oil", "type":"category", "children": [
+                      {"name": "French", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+                      {"name": "Gallo", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+                      {"name": "Norman", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+                      {"name": "Walloon", "type":"language", "extinct": false, "isogloss": "centum", "children": []}
+                    ]},
+                    {"name": "Occitan", "type":"category", "children": [
+                      {"name": "Catalan", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+                      {"name": "Occitan", "type":"language", "extinct": false, "isogloss": "centum", "children": []}
+                    ]},
+                    {"name": "Rhaetian", "type":"language", "extinct": true, "isogloss": "centum", "children": [
+                      {"name": "Friulian", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+                      {"name": "Ladin", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+                      {"name": "Romansh", "type":"language", "extinct": false, "isogloss": "centum", "children": []}
+                    ]}
+                  ]}
+                ]},
+                {"name": "Italo-Dalmatian", "type":"category", "children": [
+                  {"name": "Corsican", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+                  {"name": "Dalmatian", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
+                  {"name": "Istriot", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+                  {"name": "Italian", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+                  {"name": "Neapolitan", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+                  {"name": "Sassarese", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+                  {"name": "Sicilian", "type":"language", "extinct": false, "isogloss": "centum", "children": []}
+                ]}
+              ]}
+            ]}
+          ]}
+        ]}
+      ]},
+      {"name": "Sabellic", "type":"category", "children": [
+      
+      ]}
+    ]}
   ]
 }
