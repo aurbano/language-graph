@@ -17,10 +17,10 @@ var GraphViewer = function(opts, data) {
  var force = d3.layout.force()
     .size([width, height])
     .nodes([]) // initialize with a single node
-    .linkDistance(opts.linkDistance || 30)
-    .charge(opts.charge || -60)
     .linkStrength(opts.linkStrength || 0.1)
-    .friction(opts.friction || 0.002)
+    .friction(opts.friction || 0.9)
+    .linkDistance(opts.linkDistance || 20)
+    .charge(opts.charge || -30)
     .gravity(opts.gravity || 0.1)
     .theta(opts.theta || 0.8)
     .alpha(opts.alpha || 0.1)
