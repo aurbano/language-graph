@@ -71,6 +71,11 @@ var GraphViewer = function(opts, data) {
   }
 
   function processLanguage(lang, parentNode) {
+    if(typeof(lang.ref) === 'string'){
+      // TODO Process references to other nodes
+      return;
+    }
+    
     var currentNode = {
       name: lang.name,
       type: lang.type,
