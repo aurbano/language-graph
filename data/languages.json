@@ -46,7 +46,7 @@
             {"name": "Tsakonian", "type":"language", "extinct": false, "isogloss": "centum", "children": []}
           ]},
           {"name": "Northwest Greek", "type":"language", "extinct": true, "isogloss": "centum", "children": []}
-        ]}
+        ]},
         {"name": "Aeolic", "type":"category", "children": [
           {"name": "Aegean", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
           {"name": "Beotian", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
