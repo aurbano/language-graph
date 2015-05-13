@@ -6,17 +6,24 @@
 
 var GraphViewer = function(opts, data) {
   'use strict';
+  
+  console.info("GraphViewer");
 
   var width = $(opts.container).width(),
     height = $(opts.container).height();
 
   var fill = d3.scale.category20();
 
-  var force = d3.layout.force()
+ var force = d3.layout.force()
     .size([width, height])
     .nodes([]) // initialize with a single node
     .linkDistance(opts.linkDistance || 30)
     .charge(opts.charge || -60)
+    .linkStrength(opts.linkStrength || 0.1)
+    .friction(opts.friction || 0.002)
+    .gravity(opts.gravity || 0.1)
+    .theta(opts.theta || 0.8)
+    .alpha(opts.alpha || 0.1)
     .on('tick', tick);
 
   var svg = d3.select(opts.container || 'body').append('svg')
@@ -68,9 +75,12 @@ var GraphViewer = function(opts, data) {
     force.start();
   }
 
-  restart();
-
   function processLanguage(lang, parentNode) {
+    if(typeof(lang.ref) === 'string'){
+      // TODO Process references to other nodes
+      return;
+    }
+    
     var currentNode = {
       name: lang.name,
       type: lang.type,
@@ -89,10 +99,10 @@ var GraphViewer = function(opts, data) {
       processLanguage(child, currentNode);
     });
   }
-
+  console.time("Processing data");
   processLanguage(data);
-
   restart();
+  console.timeEnd("Processing data");
 
   function tick() {
     link
