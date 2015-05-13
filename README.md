@@ -2,7 +2,7 @@
 
 > Directed World languages graph. [See Demo](http://urbanoalvarez.es/language-graph)
 
-![Language Graph](https://raw.githubusercontent.com/aurbano/language-graph/master/data/screenshot.png)
+[![Language Graph](https://raw.githubusercontent.com/aurbano/language-graph/master/data/screenshot.png)](http://urbanoalvarez.es/language-graph)
 
 It uses public data extracted from [multiple sources](https://github.com/aurbano/language-graph/blob/master/data/sources.json), and D3js to render the graph.
 
