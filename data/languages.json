@@ -1,34 +1,34 @@
 {
-	"category": "Indo-European",
-	"children": [
-		{
-			"type": "category",
-			"name": "Anatolian",
-			"children": [
-				{"name": "Luwian", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
-				{"name": "Lycian", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
-				{"name": "Hittite", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
-				{"name": "Carian", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
-				{"name": "Lydian", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
-				{"name": "Palaic", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
-				{"name": "Pisidian", "type":"language", "extinct": true, "isogloss": "centum", "children": []}
-			]
-		},
-		{
-			"type": "category",
-			"name":  "Albanian",
-			"children": [
-				{"name": "Albanian", "type":"language", "extinct": false, "isogloss": "centum", "children": []}
-			]
-		},
-		{
-			"type": "category",
-			"name":  "Hellenic",
-			"children": [
-				{"name": "Mycenaean", "type":"language", "extinct": true, "isogloss": "centum", "children": [
+  "category": "Indo-European",
+  "children": [
+    {
+      "type": "category",
+      "name": "Anatolian",
+      "children": [
+        {"name": "Luwian", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
+        {"name": "Lycian", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
+        {"name": "Hittite", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
+        {"name": "Carian", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
+        {"name": "Lydian", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
+        {"name": "Palaic", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
+        {"name": "Pisidian", "type":"language", "extinct": true, "isogloss": "centum", "children": []}
+      ]
+    },
+    {
+      "type": "category",
+      "name":  "Albanian",
+      "children": [
+        {"name": "Albanian", "type":"language", "extinct": false, "isogloss": "centum", "children": []}
+      ]
+    },
+    {
+      "type": "category",
+      "name":  "Hellenic",
+      "children": [
+        {"name": "Mycenaean", "type":"language", "extinct": true, "isogloss": "centum", "children": [
 
-				]}
-			]
-		}
-	]
+        ]}
+      ]
+    }
+  ]
 }
