@@ -46,7 +46,7 @@
             {"name": "Tsakonian", "type":"language", "extinct": false, "isogloss": "centum", "children": []}
           ]},
           {"name": "Northwest Greek", "type":"language", "extinct": true, "isogloss": "centum", "children": []}
-        ]}
+        ]},
         {"name": "Aeolic", "type":"category", "children": [
           {"name": "Aegean", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
           {"name": "Beotian", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
@@ -136,8 +136,122 @@
         ]}
       ]},
       {"name": "Sabellic", "type":"category", "children": [
-      
-      ]}
+        {"name": "Oscan", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
+        {"name": "Umbrian", "type":"language", "extinct": true, "isogloss": "centum", "children": [
+          {"name": "Aequian", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
+          {"name": "Marsian", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
+          {"name": "Volscian", "type":"language", "extinct": true, "isogloss": "centum", "children": []}
+        ]}
+      ]},
+      {"name": "Celtic", "type":"category", "children": [
+        {"name": "Insular", "type":"category", "children": [
+          {"name": "Goidelic", "type":"category", "children": [
+            {"name": "Irish Gaelic", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+            {"name": "Manx Gaelic", "type":"language", "extinct": true, "isogloss": "centum", "children": [
+              {"name": "Revived Manx", "type":"language", "extinct": false, "isogloss": "centum", "children": []}
+            ]},
+            {"name": "Scots Gaelic", "type":"language", "extinct": false, "isogloss": "centum", "children": []}
+          ]},
+          {"name": "Brythonic", "type":"category", "children": [
+            {"name": "British", "type":"language", "extinct": true, "isogloss": "centum", "children": [
+              {"name": "Breton", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+              {"name": "Comish", "type":"language", "extinct": true, "isogloss": "centum", "children": [
+                {"name": "Revived Comish", "type":"language", "extinct": false, "isogloss": "centum", "children": []}
+              ]},
+              {"name": "Cumbric", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
+              {"name": "Welsh", "type":"language", "extinct": false, "isogloss": "centum", "children": []}
+            ]},
+            {"name": "Ivernic", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
+            {"name": "Pictish", "type":"language", "extinct": true, "isogloss": "centum", "children": []}
+          ]}
+        ]},
+        {"name": "Continental", "type":"category", "children": [
+          {"name": "Celtiberian", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
+          {"name": "Galatian", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
+          {"name": "Gaulish", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
+          {"name": "Lepontic", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
+          {"name": "Noric", "type":"language", "extinct": true, "isogloss": "centum", "children": []}
+        ]}
+      ]},
+      {"name": "Germanic", "type":"category", "children": [
+        {"name": "Old Norse", "type":"language", "extinct": true, "isogloss": "centum", "children": [
+          {"name": "Old West Norse", "type":"language", "extinct": true, "isogloss": "centum", "children": [
+            {"name": "Faroese", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+            {"name": "Greenlandic", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
+            {"name": "Icelandic", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+            {"name": "Nom", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
+            {"name": "Norwegian", "type":"language", "extinct": false, "isogloss": "centum", "children": []}
+          ]},
+          {"name": "Old East Norse", "type":"language", "extinct": true, "isogloss": "centum", "children": [
+            {"name": "Danish", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+            {"name": "Swedish", "type":"language", "extinct": false, "isogloss": "centum", "children": []}
+          ]},
+          {"name": "Elfdalian", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+          {"name": "Old Gutnish", "type":"language", "extinct": true, "isogloss": "centum", "children": []}
+        ]},
+        {"name": "West-Germanic", "type":"category", "children": [
+          {"name": "Low Franconian", "type":"category", "children": [
+            {"name": "Low West Franconian", "type":"category", "children": [
+              {"name": "Old Dutch", "type":"language", "extinct": true, "isogloss": "centum", "children": [
+                {"name": "Dutch", "type":"language", "extinct": false, "isogloss": "centum", "children": [
+                  {"name": "Afrikaans", "type":"language", "extinct": false, "isogloss": "centum", "children": []}
+                ]},
+                {"name": "Flemish", "type":"language", "extinct": false, "isogloss": "centum", "children": []}
+              ]}
+            ]},
+            {"name": "Low East Franconian", "type":"category", "children": [
+              {"name": "Old East Low Franconian", "type":"language", "extinct": true, "isogloss": "centum", "children": [
+                {"name": "Limburgish", "type":"language", "extinct": false, "isogloss": "centum", "children": []}
+              ]}
+            ]}
+          ]},
+          {"name": "Old High German", "type":"language", "extinct": true, "isogloss": "centum", "children": [
+            {"name": "Central German", "type":"category", "children": [
+              {"name": "Luxembourgish", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+              {"name": "Ripuarian", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+              {"name": "Thuringian", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+              {"name": "Standard German", "type":"language", "extinct": false, "isogloss": "centum", "children": []}
+            ]},
+            {"name": "Yiddish", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+            {"name": "Upper German", "type":"category", "children": [
+              {"ref": "Standard German"},
+              {"name": "Alemannic", "type":"language", "extinct": false, "isogloss": "centum", "children": [
+                {"name": "Swiss German", "type":"language", "extinct": false, "isogloss": "centum", "children": []}
+              ]},
+              {"name": "Austro-Bavarian", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+              {"name": "Cimbrian", "type":"language", "extinct": false, "isogloss": "centum", "children": []}
+            ]}
+          ]},
+          {"name": "Anglo-Frisian", "type":"category", "children": [
+            {"name": "Old Frisian", "type":"language", "extinct": true, "isogloss": "centum", "children": [
+              {"name": "North Frisian", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+              {"name": "Saterland Frisian", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+              {"name": "West Frisian", "type":"language", "extinct": false, "isogloss": "centum", "children": []}
+            ]},
+            {"name": "Old English", "type":"language", "extinct": true, "isogloss": "centum", "children": [
+              {"name": "English", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+              {"name": "Scots", "type":"language", "extinct": false, "isogloss": "centum", "children": []},
+              {"name": "Yola", "type":"language", "extinct": true, "isogloss": "centum", "children": []}
+            ]}
+          ]},
+          {"name": "Old Saxon", "type":"language", "extinct": true, "isogloss": "centum", "children": [
+            {"name": "Low German", "type":"language", "extinct": false, "isogloss": "centum", "children": []}
+          ]}
+        ]},
+        {"name": "East-Germanic", "type":"category", "children": [
+          {"name": "Burgundian", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
+          {"name": "Crimean Gothic", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
+          {"name": "Gothic", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
+          {"name": "Vandalic", "type":"language", "extinct": true, "isogloss": "centum", "children": []}
+        ]}
+      ]},
+      {"name": "Tocharian", "type":"category", "children": [
+        {"name": "Kuchean", "type":"language", "extinct": true, "isogloss": "centum", "children": []},
+        {"name": "Turfanian", "type":"language", "extinct": true, "isogloss": "centum", "children": []}
+      ]},
+      {"name": "Balto-Slavic", "type":"category", "children": []},
+      {"name": "Armenian", "type":"category", "children": []},
+      {"name": "Indo-Iranian", "type":"category", "children": []}
     ]}
   ]
 }
