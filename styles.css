@@ -3,6 +3,7 @@
   position:absolute;
   z-index:2;
   width:250px;
+  background:white;
 }
 
 #graph{
@@ -64,4 +65,12 @@ rect {
 
 .link {
   stroke: #999;
+}
+span.legend {
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  border-radius: 50%;
+  top: 2px;
+  position: relative;
 }
