@@ -19,3 +19,5 @@ The graph renderer accepts several parameters that are then fed to D3:
 |gravity|0.1|Sets the gravitational strength to the specified numerical value. `gravity` is implemented as a weak geometric constraint similar to a virtual spring connecting each node to the center of the layout's size.|
 |theta|0.8|Sets the [Barnes–Hut](http://en.wikipedia.org/wiki/Barnes-Hut_simulation) approximation criterion to the specified value.|
 |alpha|0.1|Sets the force layout's cooling parameter|
+
+[![Analytics](https://ga-beacon.appspot.com/UA-3181088-16/language-graph/readme)](https://github.com/aurbano)
