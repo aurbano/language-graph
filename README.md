@@ -1,6 +1,6 @@
 # language-graph [![Build Status](http://img.shields.io/travis/aurbano/language-graph/master.svg?style=flat-square)](https://travis-ci.org/aurbano/language-graph)
 
-> Directed World languages graph. [See Demo](http://urbanoalvarez.es/language-graph)
+> Directed World languages graph. [See Demo](https://aurbano.github.io/language-graph)
 
 [![Language Graph](https://raw.githubusercontent.com/aurbano/language-graph/master/data/screenshot.png)](http://urbanoalvarez.es/language-graph)
 
